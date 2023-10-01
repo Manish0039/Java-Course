@@ -22,8 +22,9 @@
 /*
  * class Basic {
  * public static void main(String[] args) {
- * char x = 'U';
- * int y = x;
+ * char x = 'U'; // Here we declare x. x is assign as the char U.
+ * int y = x; // Here we declare y. y is declare to get the integer value of
+ * variable x
  * System.out.println("The ASCII value of U is = " + y);
  * }
  * }
@@ -36,7 +37,7 @@
 // rectangle and print its area.
 
 /*
- * import java.util.Scanner;
+ * import java.util.Scanner; // This is used for taking input form the users.
  * 
  * public class Basic {
  * public static void main(String[] args) {
@@ -84,7 +85,7 @@
 // variable.
 
 /*
- * import java.util.Scanner;
+ * import java.util.Scanner; // This is used for taking input from the user.
  * 
  * public class Basic {
  * 
