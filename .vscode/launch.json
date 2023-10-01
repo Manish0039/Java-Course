@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Basic",
+      "request": "launch",
+      "mainClass": "Basic",
+      "projectName": "Java-Course_c550738b"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/kumar/Documents/GitHub/Java-Course/Introduction to C++/Topics/001 Basic/002 Loops",
+      "program": "c:/Users/kumar/Documents/GitHub/Java-Course/Introduction to C++/Topics/001 Basic/002 Loops/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
