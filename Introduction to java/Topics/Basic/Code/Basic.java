@@ -1,6 +1,6 @@
 
-// Ouestion 1. Take 2 integer values in two variables a and b and print their
-// product.
+                      // Ouestion 1. Take 2 integer values in two variables a and b and print their product.
+
 
 /*
  * class Basic {
@@ -17,7 +17,8 @@
 // output
 // Product of a and b is = 600
 
-// Question 2. Print the ASCII value of character ‘U’.
+
+                                  // Question 2. Print the ASCII value of character ‘U’.
 
 /*
  * class Basic {
@@ -33,8 +34,9 @@
 // Output
 // The ASCII value of U is = 85
 
-// Question 3.- Write a Java program to take the length and breadth of a
-// rectangle and print its area.
+
+                         // Question 3.- Write a Java program to take the length and breadth of a rectangle and print its area.
+
 
 /*
  * import java.util.Scanner; // This is used for taking input form the users.
@@ -60,7 +62,7 @@
  * The Area of the rectangle is = 100
  */
 
-// Question 4. Write a Java program to calculate the cube of a number.
+                               // Question 4. Write a Java program to calculate the cube of a number.
 
 /*
  * import java.util.Scanner;
@@ -81,8 +83,9 @@
  * The cube of the number is = 216
  */
 
-// Question 5. Write a Java program to swap two numbers with the help of a third
-// variable.
+
+    //<------------------   Question 5. Write a Java program to swap two numbers with the help of a third variable. -------------------->
+
 
 /*
  * import java.util.Scanner; // This is used for taking input from the user.
@@ -112,4 +115,39 @@
  * 34
  * The value of First Number = 34
  * The value of Second Number = 12
+ */
+
+                            // Question 6. Input name, roll number and field of interest from user and print
+
+/*
+ * import java.util.Scanner;
+ * 
+ * public class Basic {
+ * public static void main(String[] args) {
+ * Scanner sc = new Scanner(System.in);
+ * System.out.println("Enter your name");
+ * String Name = sc.nextLine();
+ * System.out.println("Enter your roll no");
+ * int Roll = sc.nextInt();
+ * System.out.println("Enter your Field of Interest");
+ * String Field = sc.next();
+ * 
+ * 
+ * 
+ * System.out.println("Name = " + Name);
+ * System.out.println("Roll Number = " + Roll);
+ * System.out.println("Field Of Interest = " + Field);
+ * 
+ * }
+ * }
+ * 
+ * Enter your name
+ * Manish
+ * Enter your roll no
+ * 1234
+ * Enter your Field of Interest
+ * Computer Science
+ * Name = Manish
+ * Roll Number = 1234
+ * Field Of Interest = Computer
  */
