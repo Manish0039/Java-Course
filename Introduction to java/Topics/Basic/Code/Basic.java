@@ -17,9 +17,6 @@
 // output
 // Product of a and b is = 600
 
-
-
-
 // Question 2. Print the ASCII value of character ‘U’.
 
 /*
@@ -35,9 +32,6 @@
 
 // Output
 // The ASCII value of U is = 85
-
-
-
 
 // Question 3.- Write a Java program to take the length and breadth of a
 // rectangle and print its area.
@@ -66,9 +60,6 @@
  * The Area of the rectangle is = 100
  */
 
-
-
-
 // Question 4. Write a Java program to calculate the cube of a number.
 
 /*
@@ -89,9 +80,6 @@
  * 6
  * The cube of the number is = 216
  */
-
-
-
 
 // <------------------ Question 5. Write a Java program to swap two numbers with
 // the help of a third variable. -------------------->
@@ -125,9 +113,6 @@
  * The value of First Number = 34
  * The value of Second Number = 12
  */
-
-
-
 
 // Question 6. Input name, roll number and field of interest from user and print
 
@@ -195,4 +180,46 @@
  * Total Number = 254/300
  * Percentage = 84.0
  * CGPA = 8.842105263157896
+ */
+
+// Question 8. Given two numbers, return their sum in the following format: Int
+// t representing number of test cases
+// T lines of Two integers representing the numbers to be added
+
+/*
+ * import java.util.Scanner;
+ * 
+ * public class Basic {
+ * public static void main(String[] args) {
+ * Scanner sc = new Scanner(System.in);
+ * System.out.println("How many times you want to do test");
+ * int t = sc.nextInt();
+ * int i;
+ * for (i = 1; i <= t; i++) {
+ * System.out.println("Enter first number");
+ * int a = sc.nextInt();
+ * System.out.println("Enter second number");
+ * int b = sc.nextInt();
+ * System.out.println("Sum = " + (a + b));
+ * }
+ * }
+ * }
+ * 
+ * How many times you want to do test
+ * 3
+ * Enter first number
+ * 12
+ * Enter second number
+ * 12
+ * Sum = 24
+ * Enter first number
+ * 23
+ * Enter second number
+ * 34
+ * Sum = 57
+ * Enter first number
+ * 12
+ * Enter second number
+ * 34
+ * Sum = 46
  */
