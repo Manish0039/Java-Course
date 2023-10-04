@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Data_type1",
+      "request": "launch",
+      "mainClass": "Data_type1",
+      "projectName": "Java-Course_c550738b"
+    },
+    {
+      "type": "java",
+      "name": "Data_Type1",
+      "request": "launch",
+      "mainClass": "Data_Type1",
+      "projectName": "Java-Course_c550738b"
+    },
+    {
+      "type": "java",
+      "name": "DataType1",
+      "request": "launch",
+      "mainClass": "DataType1",
+      "projectName": "Java-Course_c550738b"
+    },
+    {
+      "type": "java",
       "name": "PrimeNumber",
       "request": "launch",
       "mainClass": "PrimeNumber",
