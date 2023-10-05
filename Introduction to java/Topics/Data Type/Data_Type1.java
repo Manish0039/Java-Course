@@ -83,6 +83,24 @@ public class Data_Type1 {
 
 
 
-// Question 4. 
+// Question 4. Write a Java program to convert minutes into years and days.
+/*
+import java.util.Scanner;
+public class Data_Type1{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter no. of minutes");
+        int min = sc.nextInt();
+        int days = (min/(60*24))%365;
+        int years = min/(60*24*365);
+        System.out.println(min  +" is approximately "+ years +" Years And "+days +" Days");
+    }
+}
 
+ */
+
+// Output
+//Enter no. of minutes
+//3456789
+//3456789 is approximately 6 Years And 210 Days
 
