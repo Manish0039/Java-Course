@@ -9,3 +9,4 @@ Questions in Data_Types1.java file are below.
 7. Write a Java program to take the user for a distance (in meters) and the time taken (as three numbers: hours, minutes, seconds), and display the speed, in meters per second, kilometers per hour and miles per hour (hint: 1 mile = 1609 meters).
 8. Write a Java program that reads a number and displays the square, cube, and fourth power.
 9. Write a Java program that accepts two integers from the user and prints the sum, the difference, the product, the average, the distance (the difference between the integers), the maximum (the largest of the two integers), and the minimum (the smallest of the two integers).
+10.Write a Java program to break a six-digit integer into a sequence of digits.
