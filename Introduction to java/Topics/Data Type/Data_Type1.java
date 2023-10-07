@@ -296,3 +296,29 @@ public class Data_Type1{
 //Distance of given Number = 5
 //Maximum Number = 30
 //Minimum Number = 25
+
+
+
+
+// Question 10. Write a Java program to break an integer into a sequence of digits.
+
+import java.util.Scanner;
+public class Data_Type1 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a positive digit");
+        int num = sc.nextInt();
+        int n1 = num/100000%10;
+        int n2 = num/10000%10;
+        int n3 = num/1000%10;
+        int n4 = num/100%10;
+        int n5 = num/10%10;
+        int n6 = num%10;
+        System.out.println(n1+" "+n2+ " "+ n3 + " " + n4 + " " + n5 + " " + n6);
+    }
+}
+
+//Output
+//Enter a positive digit
+//456345
+//4 5 6 3 4 5
