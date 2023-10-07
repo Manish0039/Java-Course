@@ -175,7 +175,7 @@ public class Data_Type1 {
 
 
 // Question 7. Write a Java program to take the user for a distance (in meters) and the time taken (as three numbers: hours, minutes, seconds), and display the speed, in meters per second, kilometers per hour and miles per hour (hint: 1 mile = 1609 meters).
-
+/*
 import java.util.Scanner;
  public class Data_Type1{
      public static void main(String[] args){
@@ -203,6 +203,8 @@ import java.util.Scanner;
 
      }
  }
+
+ */
  //Output
 //Enter the Distance in Meters.
 //2500
@@ -215,3 +217,82 @@ import java.util.Scanner;
 //The Speed in meters/second is = 0.11691530655193377
 //The Speed in km/hour is = 0.4208951035869616
 //The Speed in miles/hour is = 0.26158800720134345
+
+
+
+
+
+// Question 8. Write a Java program that reads a number and displays the square, cube, and fourth power.
+/*
+import java.util.Scanner;
+ public class Data_Type1{
+     public static void main(String[] args){
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter the Number");
+         int num = sc.nextInt();
+         int square = num*num;
+         int cube = square*num;
+         int fourth = cube*num;
+         System.out.println("The square of the number is = "+square);
+         System.out.println("The cube of the number is = "+cube);
+         System.out.println("The fourth power of the number is = "+fourth);
+
+     }
+ }
+
+ */
+
+ // Output
+// Enter the Number
+//4
+//The square of the number is = 16
+//The cube of the number is = 64
+//The fourth power of the number is = 256
+
+
+
+
+// Question 9.  Write a Java program that accepts two integers from the user and prints the sum, the difference, the product, the average, the distance (the difference between the integers), the maximum (the largest of the two integers), and the minimum (the smallest of the two integers).
+/*
+import java.util.Scanner;
+public class Data_Type1{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        int num1 = sc.nextInt();
+        System.out.println("Enter the second number");
+        int num2 = sc.nextInt();
+        int sum = num1+num2;
+        int diff = (num1-num2);
+        int product = num1*num2;
+        int average = (num1+num2)/2;
+        int max = Math.max(num1,num2);
+        int min = Math.min(num1,num2);
+        int distance = Math.abs(num1-num2);
+        System.out.println("Sum of given Number = " +sum);
+        System.out.println("Difference of given Number = " +diff);
+
+        System.out.println("Product of given Number = " +product);
+        System.out.println("Average of given Number = " +average);
+        System.out.println("Distance of given Number = " +distance);
+        System.out.println("Maximum Number = " +max);
+        System.out.println("Minimum Number = " +min);
+
+
+    }
+}
+
+ */
+
+//Output
+//Enter the first number
+//25
+//Enter the second number
+//30
+//Sum of given Number = 55
+//Difference of given Number = -5
+//Product of given Number = 750
+//Average of given Number = 27
+//Distance of given Number = 5
+//Maximum Number = 30
+//Minimum Number = 25
