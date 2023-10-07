@@ -170,3 +170,48 @@ public class Data_Type1 {
 //Enter the Body Height in meter.
 //1.73
 //Your Body Mass index is = 21.71806608974573
+
+
+
+
+// Question 7. Write a Java program to take the user for a distance (in meters) and the time taken (as three numbers: hours, minutes, seconds), and display the speed, in meters per second, kilometers per hour and miles per hour (hint: 1 mile = 1609 meters).
+
+import java.util.Scanner;
+ public class Data_Type1{
+     public static void main(String[] args){
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter the Distance in Meters.");
+         double meter = sc.nextDouble();
+         double km = meter/1000;
+         double mile = km/1.609;
+         System.out.println("Enter hour");
+         double hour = sc.nextDouble();
+         System.out.println("Enter Minute");
+         double min = sc.nextDouble();
+         System.out.println("Enter Second");
+         double sec = sc.nextDouble();
+         double hour1 = hour+(min/60)+(sec/3600);
+         double sec1 = sec+(hour*3600)+(min*60);
+         double min1 = min+(hour*60)+(sec/60);
+         double speed1 = meter/sec1;
+         double speed2 = km/hour1;
+         double speed3 = mile/hour1;
+         System.out.println("The Speed in meters/second is = "+speed1);
+         System.out.println("The Speed in km/hour is = "+speed2);
+         System.out.println("The Speed in miles/hour is = "+speed3);
+
+
+     }
+ }
+ //Output
+//Enter the Distance in Meters.
+//2500
+//Enter hour
+//5
+//Enter Minute
+//56
+//Enter Second
+//23
+//The Speed in meters/second is = 0.11691530655193377
+//The Speed in km/hour is = 0.4208951035869616
+//The Speed in miles/hour is = 0.26158800720134345
