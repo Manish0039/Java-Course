@@ -144,3 +144,29 @@ public class Data_Type1 {
 //Input the time zone offset to GMT: 345
 //Current time is 17:34:42
 
+
+
+
+// Question 6. Write a Java program to compute the body mass index (BMI).
+
+/*
+import java.util.Scanner;
+public class Data_Type1 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Body weight in kg.");
+        double weigh = sc.nextDouble();
+        System.out.println("Enter the Body Height in meter.");
+        double height = sc.nextDouble();
+        Double BMI = weigh/(height*height);
+        System.out.println("Your Body Mass index is = "+BMI);
+    }
+}
+
+ */
+//Output
+//Enter the Body weight in kg.
+//65
+//Enter the Body Height in meter.
+//1.73
+//Your Body Mass index is = 21.71806608974573
