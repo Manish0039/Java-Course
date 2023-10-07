@@ -104,3 +104,43 @@ public class Data_Type1{
 //3456789
 //3456789 is approximately 6 Years And 210 Days
 
+
+
+
+// Question 5.  Write a Java program that prints the current time in GMT.
+
+/*
+import java.util.Scanner;
+public class Data_Type1 {
+
+    public static void main(String[] Strings) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Input the time zone offset to GMT: ");
+        long timeZoneChange = input.nextInt();
+
+        long totalMilliseconds = System.currentTimeMillis();
+
+        long totalSeconds = totalMilliseconds / 1000;
+
+        long currentSecond = totalSeconds % 60;
+
+        long totalMinutes = totalSeconds / 60;
+
+        long currentMinute = totalMinutes % 60;
+
+        long totalHours = totalMinutes / 60;
+
+        long currentHour = ((totalHours + timeZoneChange) % 24);
+
+        System.out.println("Current time is " + currentHour + ":" + currentMinute + ":" + currentSecond);
+    }
+}
+
+ */
+
+//Output
+//Input the time zone offset to GMT: 345
+//Current time is 17:34:42
+
