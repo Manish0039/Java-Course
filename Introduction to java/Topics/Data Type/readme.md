@@ -1,6 +1,7 @@
 Questions in Data_Types1.java file are below.
 
 1.  Write a Java program to convert temperature from Fahrenheit to Celsius degrees.
+   
 2.Write a Java program that reads a number in inches and converts it to meters.
 3. Write a Java program that reads an integer between 0 and 1000 and adds all the digits in the integer  without using loops.
 4. Write a Java program to convert minutes into years and days.
