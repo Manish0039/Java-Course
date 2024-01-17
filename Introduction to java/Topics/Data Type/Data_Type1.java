@@ -302,6 +302,7 @@ public class Data_Type1{
 
 // Question 10. Write a Java program to break an integer into a sequence of digits.
 
+import java.io.StringReader;
 import java.util.Scanner;
 public class Data_Type1 {
     public static void main(String[] args){
@@ -314,6 +315,7 @@ public class Data_Type1 {
         int n4 = num/100%10;
         int n5 = num/10%10;
         int n6 = num%10;
+        
         System.out.println(n1+" "+n2+ " "+ n3 + " " + n4 + " " + n5 + " " + n6);
     }
 }
