@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Login",
+      "request": "launch",
+      "mainClass": "Login",
+      "projectName": "Java-Course_c550738b"
+    },
+    {
+      "type": "java",
       "name": "Data_type1",
       "request": "launch",
       "mainClass": "Data_type1",
