@@ -320,4 +320,11 @@ public class Main{
     
     }
 }
+
+output 
+
+Enter the Number
+6
+Saturday
+
   */
