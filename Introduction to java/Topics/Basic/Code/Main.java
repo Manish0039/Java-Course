@@ -288,43 +288,98 @@
  * 
  */
 
- /*
-  * Question11  :Write a Java program  to input week number(1-7)and print day of week name using switch case.
+/*
+ * Question11 :Write a Java program to input week number(1-7)and print day of
+ * week name using switch case.
+ * 
+ * import java.util.Scanner;
+ * public class Main{
+ * public static void main(String[] args){
+ * Scanner sc = new Scanner(System.in);
+ * System.out.println("Enter the Number");
+ * int Number = sc.nextInt();
+ * 
+ * switch(Number){
+ * case 1 : System.out.println("Monday");
+ * break;
+ * case 2 : System.out.println("Tuesday");
+ * break;
+ * case 3 : System.out.println("Wednesday");
+ * break;
+ * case 4 : System.out.println("Thursday");
+ * break;
+ * case 5 : System.out.println("Friday");
+ * break;
+ * case 6 : System.out.println("Saturday");
+ * break;
+ * case 7 : System.out.println("Sunday");
+ * break;
+ * default: System.out.println("Invalid input");
+ * 
+ * 
+ * }
+ * 
+ * }
+ * }
+ * 
+ * output
+ * 
+ * Enter the Number
+ * 6
+ * Saturday
+ * 
+ */
 
-  import java.util.Scanner;
-public class Main{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Number");
-        int Number = sc.nextInt();
-        
-        switch(Number){
-            case 1 : System.out.println("Monday");
-            break;
-            case 2 : System.out.println("Tuesday");
-            break;
-            case 3 : System.out.println("Wednesday");
-            break;
-            case 4 : System.out.println("Thursday");
-            break;
-            case 5 : System.out.println("Friday");
-            break;
-            case 6 : System.out.println("Saturday");
-            break;
-            case 7 : System.out.println("Sunday");
-            break;
-            default: System.out.println("Invalid input");
-            
-            
-        }
-    
-    }
-}
-
-output 
-
-Enter the Number
-6
-Saturday
-
-  */
+/*
+ * Question 12. Write a program to print hello world for n number of times using
+ * while loop.
+ * 
+ * import java.util.Scanner;
+ * public class Main{
+ * public static void main(String[] args){
+ * Scanner sc = new Scanner(System.in);
+ * System.out.println("Enter the Number");
+ * int num = sc.nextInt();
+ * int counter = 1;
+ * int n = 1;
+ * while(counter <= num ){
+ * System.out.println("Hello World "+n);
+ * n++;
+ * counter++;
+ * }
+ * System.out.println("Work is Done.");
+ * 
+ * }
+ * }
+ * 
+ * Output
+ * Enter the Number
+ * 25
+ * Hello World 1
+ * Hello World 2
+ * Hello World 3
+ * Hello World 4
+ * Hello World 5
+ * Hello World 6
+ * Hello World 7
+ * Hello World 8
+ * Hello World 9
+ * Hello World 10
+ * Hello World 11
+ * Hello World 12
+ * Hello World 13
+ * Hello World 14
+ * Hello World 15
+ * Hello World 16
+ * Hello World 17
+ * Hello World 18
+ * Hello World 19
+ * Hello World 20
+ * Hello World 21
+ * Hello World 22
+ * Hello World 23
+ * Hello World 24
+ * Hello World 25
+ * Work is Done.
+ * 
+ */
