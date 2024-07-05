@@ -414,4 +414,26 @@
 /*
  * Question 14. Write a program to print the reverse of a number.
  * 
+ * import java.util.Scanner;
+ * public class Main{
+ * public static void main(String[] args){
+ * Scanner sc = new Scanner(System.in);
+ * System.out.println("Enter the Number");
+ * int num = sc.nextInt();
+ * int rev = 0;
+ * for (int i = 10;num>0;num=num/10){
+ * int last_digit = num%10;
  * 
+ * rev = (rev*10)+last_digit;
+ * }
+ * 
+ * System.out.print("reverse is = "+rev);
+ * 
+ * }
+ * 
+ * }
+ * 
+ * Output
+ * 
+ * 
+ */
