@@ -434,6 +434,8 @@
  * }
  * 
  * Output
- * 
+ * Enter the Number
+ * 28012006
+ * reverse is = 60021082
  * 
  */
