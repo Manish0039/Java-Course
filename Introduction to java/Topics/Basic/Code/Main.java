@@ -410,3 +410,27 @@
  * 5
  * The sum of first 5 Natural Number = 15
  */
+
+/*
+ * Question 14. Write a program to print the reverse of a number.
+ * 
+ * import java.util.Scanner;
+ * public class Main{
+ * public static void main(String[] args){
+ * Scanner sc = new Scanner(System.in);
+ * System.out.println("Enter the Number");
+ * int num = sc.nextInt();
+ * for (int i = 10;num>0;num=num/10){
+ * int ans = num%10;
+ * System.out.print(ans);
+ * }
+ * 
+ * }
+ * 
+ * }
+ * 
+ * output
+ * Enter the Number
+ * 28012006
+ * 60021082
+ */
