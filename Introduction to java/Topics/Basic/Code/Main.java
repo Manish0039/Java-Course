@@ -439,3 +439,32 @@
  * reverse is = 60021082
  * 
  */
+
+/*
+ * Question 15. write a program to not print the multiple of 10 using continue
+ * keyword.
+ * 
+ * import java.util.Scanner;
+ * public class Main{
+ * public static void main(String[] args){
+ * Scanner sc = new Scanner(System.in);
+ * 
+ * do{
+ * System.out.println("Enter the Number");
+ * int num = sc.nextInt();
+ * 
+ * if(num%10==0){
+ * continue;
+ * }
+ * System.out.println("The answer is = "+num);
+ * 
+ * } while(true);
+ * }
+ * }
+ * 
+ * Output
+ * 
+ * Enter the Number
+ * 20
+ * Enter the Number
+ */
